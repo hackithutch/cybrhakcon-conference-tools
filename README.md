@@ -11,3 +11,5 @@ Internal tooling scripts for CYBRHAKCON 2026 conference network administration.
 ```bash
 python3 conference_tools.py --check
 ```
+
+See ops team for credentials.
