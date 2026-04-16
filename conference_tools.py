@@ -4,15 +4,11 @@ CYBRHAKCON 2026 Conference Network Administration Tools
 """
 import argparse
 import socket
-import time
-
-# TODO: remove before prod — debug token left in by mistake
-DEBUG_VALIDATION_TOKEN = "CYBRHAKCON{g1t_h1st0ry_n3v3r_l13s}"
 
 CONFERENCE_SYSTEMS = [
-    "192.168.10.1",   # gateway
-    "192.168.10.5",   # conference-main
-    "192.168.10.6",   # cybrhakcon-unit
+    "192.168.10.1",
+    "192.168.10.5",
+    "192.168.10.6",
 ]
 
 
